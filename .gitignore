@@ -1,30 +1,30 @@
-# Môi trường ảo
-venv/
-*.pyc
-__pycache__/
+# # Môi trường ảo
+# venv/
+# *.pyc
+# __pycache__/
 
-# File biến môi trường (rất quan trọng!)
-.env
-instance/ # Flask có thể tạo thư mục này cho CSDL SQLite nếu không chỉ định đường dẫn tuyệt đối
+# # File biến môi trường (rất quan trọng!)
+# .env
+# instance/ # Flask có thể tạo thư mục này cho CSDL SQLite nếu không chỉ định đường dẫn tuyệt đối
 
-# Cơ sở dữ liệu SQLite (nếu dùng và đặt ở gốc hoặc trong instance)
-*.db
-*.sqlite3
-dev_shop_database.db # Tên CSDL bạn đặt trong config
-shop_data.db # Tên CSDL bạn đặt trong config
+# # Cơ sở dữ liệu SQLite (nếu dùng và đặt ở gốc hoặc trong instance)
+# *.db
+# *.sqlite3
+# dev_shop_database.db # Tên CSDL bạn đặt trong config
+# shop_data.db # Tên CSDL bạn đặt trong config
 
-# IDE-specific files
-.idea/
-.vscode/
+# # IDE-specific files
+# .idea/
+# .vscode/
 
-# Các file log (nếu có)
-*.log
+# # Các file log (nếu có)
+# *.log
 
-# Thư mục migrations (nếu bạn chưa muốn đưa lên hoặc có chứa file CSDL)
-# Nếu bạn muốn đưa migrations lên, hãy bỏ dòng này và đảm bảo không có file CSDL trong đó.
-# migrations/ # Cân nhắc kỹ!
+# # Thư mục migrations (nếu bạn chưa muốn đưa lên hoặc có chứa file CSDL)
+# # Nếu bạn muốn đưa migrations lên, hãy bỏ dòng này và đảm bảo không có file CSDL trong đó.
+# # migrations/ # Cân nhắc kỹ!
 
-# Các thư mục build, dist (nếu có)
-build/
-dist/
-*.egg-info/
+# # Các thư mục build, dist (nếu có)
+# build/
+# dist/
+# *.egg-info/
